@@ -1,0 +1,9 @@
+for _, v in pairs(workspace.Difficulties:GetChildren()) do
+if v:IsA('BasePart') then
+local CFRAME = v.Position
+local SPEED = 1
+local WAIT = 2
+local v0={location1=CFRAME};local v1=game:GetService("TweenService");local v2=TweenInfo.new(SPEED,Enum.EasingStyle.Linear);local v3=game.Players.LocalPlayer;function bypass_teleport(v4)if (v3.Character and v3.Character:FindFirstChild("HumanoidRootPart")) then local v5=0 + 0 ;local v6;local v7;local v8;local v9;while true do if ((1 -0)==v5) then v8=nil;v9=nil;v5=1067 -(68 + 997) ;end if (v5==0) then v6=(2197 -(226 + 1044)) -((931 -717) + (830 -(32 + 85))) ;v7=nil;v5=1 + 0 ;end if (v5==2) then while true do if (v6==(0 + 0)) then v7=0 + 0 + (957 -(892 + 65)) ;v8=nil;v6=(2094 -1216) -((520 -238) + 595) ;end if (v6==(1638 -((2795 -1272) + 114))) then v9=nil;while true do if (v7==((350 -(87 + 263)) + (180 -(67 + 113)))) then local v10=0 + 0 ;local v11;while true do if (v10==(0 -0)) then v11=0 + 0 ;while true do if (v11==(3 -2)) then v7=(953 -(802 + 150)) -0 ;break;end if (v11==(0 -0)) then local v12=0;while true do if (v12==(0 -0)) then v8=CFrame.new(v4);v9=v1:Create(v3.Character.HumanoidRootPart,v2,{CFrame=v8});v12=1 + 0 ;end if (v12==(998 -(915 + 82))) then v11=(3018 -1952) -(40 + 28 + (1310 -313)) ;break;end end end end break;end end end if (v7==((2983 -(1069 + 118)) -(((3352 -1874) -((494 -268) + 1044)) + (6910 -(926 + 4397))))) then v9:Play();break;end end break;end end break;end end end end bypass_teleport(v0.location1);
+wait(SPEED + WAIT)
+end
+end
